@@ -1,5 +1,5 @@
 rm(list = ls()); gc()
-ORIGINAL_DIR <- "~/data_hdd/R/Yclub/2026.3.4_HE_Cirrhosis"
+ORIGINAL_DIR <- ""
 output <- file.path(ORIGINAL_DIR, "01_DEG")
 
 if (!dir.exists(output)) {
